@@ -1,0 +1,29 @@
+.c-item{
+    height: 480px;
+  }
+  
+  .c-img {
+    
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+  .carousel-caption, .btn {
+
+    margin-bottom: 50px;
+
+  }
+  .carousel-caption h5 {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 0.8;
+  }
+  .carousel-caption p {
+    font-size: 20px;
+  }
+  .head1{
+    margin-top: 110px;
+  }
+.para1 {
+  margin-bottom: 110px;
+}

@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+
+* {
+  font-family: 'MontserratBold', sans-serif;
+}
+.menubar {
+    background-color: #030399;
+}
+
+.nav span {
+    color: white;
+}
+.nav-link {
+    color: #fff !important;
+}
+
+
+
+.logoname {
+    color: #030399;
+
+}
+.footer {
+    background-image: linear-gradient(90deg, #000000, #030399);
+}
+.footer div, a {
+    color: white;
+    text-align: center;
+}
+
+
+/* This is a single-line comment */
+
+.c-item{
+    height: 480px;
+  }
+  
+  .c-img {
+    
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h5 {
+    line-height: 12.0;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.0;
+  }
+  
+  .carousel-caption p {
+    font-size: 20px;
+    bottom: 100px;
+  }
+  
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%
+  }
+  
+  @media only screen and (max-width: 1030px) {
+  .carousel-caption h5{
+  
+    bottom: 250px;
+    font-size: 30px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    
+  
+  }
+  
+  .carousel-caption p{
+  
+    bottom: 250px;
+    font-size: 15px;
+    padding: 5px 15px;
+  
+  
+  }
+  
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%
+  }
+  
+  .btn {
+  
+    margin-bottom: 10px;
+  }
+  
+  
+  }
+  
+  .para {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .text {
+    margin-left: 9px;
+    color: green;
+    font-size: 15px;
+  }
+  
+  .hey {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .test {
+    color: #030399;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+  }
+  .text-center {
+    line-height: 1.2;
+  }
+  
+  .head1 {
+    font-size: 25px;
+  }
+  .pre {
+    font-size: 16px;
+  }
+  .bg-image {
+    background: rgba(0, 0, 0, 0.6) url('WELCOME1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-blend-mode: darken;
+    
+  }
+  
+
+  .bruh {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .txt {
+    font-size: 40px;
+  }
+
+
+.my-hr {
+  margin: 0;
+  float: left;
+  clear: left;
+  }
+
+  .col-sm-4 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.cntr {
+align-items: center;
+    justify-content: center;
+}
+
+.exp {
+  padding: 20px;
+}
+
+.bg {
+  background: rgba(0, 0, 0, 0.6) url('WELCOME1.jpg');
+  color: #fff;
+  background-blend-mode: darken;
+  
+}
+
+.btn-custom {
+    background-color: #030399; /* Replace with your desired background color */
+    color: #FFFFFF; /* Replace with your desired text color */
+}
+
+.btn-custom:hover {
+  background-color: #030399; /* Replace with your desired hover background color */
+  color: #FFFFFF; /* Replace with your desired hover text color */
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 10%;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.centered-link {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

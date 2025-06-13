@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+
+* {
+  font-family: 'MontserratBold', sans-serif;
+}
+.menubar {
+    background-color: #030399;
+}
+
+.nav span {
+    color: white;
+}
+.nav-link {
+    color: #fff !important;
+}
+
+
+
+.logoname {
+    color: #030399;
+
+}
+.footer {
+    background-image: linear-gradient(90deg, #000000, #030399);
+}
+.footer div, a {
+    color: white;
+    text-align: center;
+}
+
+
+  
+  .para {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .text {
+    margin-left: 9px;
+    color: green;
+    font-size: 15px;
+  }
+  
+  .hey {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .test {
+    color: #030399;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+  }
+  .text-center {
+    line-height: 1.2;
+  }
+  
+  .head1 {
+    font-size: 25px;
+  }
+  .pre {
+    font-size: 16px;
+  }
+
+:root {
+  --primary: hsla(183, 73%, 63%, 0.8);
+  --secondary: 	hsla(214, 100%, 34%, 0.8);
+}
+
+
+  .bg-image1 {
+    background: linear-gradient(135deg, var(--primary), var(--secondary)), url('WELCOME1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .bg-image2 {
+    background: rgba(0, 0, 0, 0.6) url('english.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-blend-mode: darken;
+    
+  }
+
+  .bruh {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .txt {
+    font-size: 40px;
+  }
+
+  .para {
+    font-size: 25px;
+  }
+
+.my-hr {
+  margin: 0;
+  float: left;
+  clear: left;
+  }
+
+  .col-sm-4 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.cntr {
+align-items: center;
+    justify-content: center;
+}
+
+.exp {
+  padding: 20px;
+}
+
+.bg {
+  background: rgba(0, 0, 0, 0.6) url('VNHS.jpg');
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.btn-custom {
+    background-color: #030399; /* Replace with your desired background color */
+    color: #FFFFFF; /* Replace with your desired text color */
+}
+
+.btn-custom:hover {
+  background-color: #030399; /* Replace with your desired hover background color */
+  color: #FFFFFF; /* Replace with your desired hover text color */
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  width: 100%;
+  height: 800px;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  height: 420px;
+}
+.carousel-inner {
+  padding: 1em;
+  
+}
+.carousel-control-prev,
+.carousel-control-next {
+  
+  background-color: #000;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+.slides {
+  padding: 50px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 10%;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

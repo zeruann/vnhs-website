@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('fonts/Poppins-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'PoppinsMed';
+    src: url('fonts/Poppins-Medium.ttf') format('truetype');
+    }
+
+.c-item{
+  height: 480px;
+}
+
+.c-img {
+  
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.carousel-caption h5 {
+  line-height: 12.0;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1.0;
+  font-family: 'PoppinsBold', sans-serif;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  bottom: 100px;
+  font-family: 'PoppinsMed', sans-serif;
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%
+}
+
+@media only screen and (max-width: 1030px) {
+.carousel-caption h5{
+
+  bottom: 250px;
+  font-size: 30px;
+  padding: 5px 15px;
+  margin-top: 10px;
+  
+
+}
+
+.carousel-caption p{
+
+  bottom: 250px;
+  font-size: 15px;
+  padding: 5px 15px;
+
+
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%
+}
+
+.btn {
+
+  margin-bottom: 10px;
+}
+
+
+
+
+}
+
+.para {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text {
+  margin-left: 9px;
+  font-family: 'PoppinsBold', sans-serif;
+  color: green;
+  font-size: 15px;
+}
+
+.nav-item {
+  font-family: 'PoppinsMed', sans-serif;
+  
+}
+.hey {
+  font-family: 'PoppinsMed', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.test {
+  color: green;
+  font-family: 'PoppinsBold', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.text-center {
+  line-height: 1.2;
+}
+
+.card {
+  font-family: 'PoppinsMed', sans-serif;
+  
+}
+.head1 {
+  font-size: 25px;
+}
+.pre {
+  font-size: 16px;
+}
+* {
+  font-family: 'PoppinsMed', sans-serif;
+}
+.bg-image {
+  background: rgba(0, 0, 0, 0.6) url('scenery.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: #fff;
+  background-blend-mode: darken;
+  
+}
+
+.txt {
+  font-family: 'PoppinsBold', sans-serif;
+  font-size: 40px;
+}
+
+.hr {
+  align-items: left;
+}

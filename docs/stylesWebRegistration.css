@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+
+* {
+  font-family: 'MontserratBold', sans-serif;
+}
+
+.menubar {
+    background-color: #030399;
+}
+
+.nav span {
+    color: white;
+}
+.nav-link {
+    color: #fff !important;
+}
+
+
+.logoname {
+    color: #030399;
+
+}
+.footer {
+    background-image: linear-gradient(90deg, #000000, #030399);
+}
+.footer div, a {
+    color: white;
+    text-align: center;
+}
+
+
+/* This is a single-line comment */
+
+.c-item{
+    height: 480px;
+  }
+  
+  .c-img {
+    
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h5 {
+    line-height: 12.0;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.0;
+  }
+  
+  .carousel-caption p {
+    font-size: 20px;
+    bottom: 100px;
+  }
+  
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%
+  }
+  
+
+  .para {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .text {
+    margin-left: 9px;
+    color: green;
+    font-size: 15px;
+  }
+  
+  .hey {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .test {
+    color: #030399;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+  }
+  .text-center {
+    line-height: 1.2;
+  }
+  
+  .head1 {
+    font-size: 25px;
+  }
+  .pre {
+    font-size: 16px;
+  }
+  .bg-image {
+    background: rgba(0, 0, 0, 0.6) url('WELCOME1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-blend-mode: darken;
+    
+  }
+  
+  .txt {
+    font-size: 40px;
+  }
+
+  .news {
+    background: rgba(0, 0, 0, 0.6) url('LOVEVNHS.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-blend-mode: darken;
+    
+  }
+
+
+  .col-sm-4 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .dates, .years {
+    margin-top: 32px;
+  }
+
+  .txtdeco {
+    text-decoration: none;
+  }
+
+.background-section {
+  background-image: url('haha.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.sheesh {
+  position: relative;
+  width: 300%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+hr {
+  color: white;
+  border: 15;
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 10%;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}.dropdown:hover .dropdown-content {
+  display: block;
+}
